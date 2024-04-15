@@ -1,4 +1,4 @@
-# l2rpn_2023_alert
+# LearningToAlert
 Train an alert module for a grid2op agent, which sends alerts if the grid is likely to collaps due to agent actions.
 
 Any agent compatible with the [grid2op framework](https://github.com/rte-france/Grid2Op) can be specified, and is ran to collect data. Contingencies are simulated, and the policy is ran for a specified number of steps. Data on wether the agent managed to save the grid or not, along with failure timestep, is registered.
